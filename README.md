@@ -1,4 +1,4 @@
-# Projeto: Localização de Hospitais e Clínicas
+# Definições iniciais
 
 ## Equipe
 - Daniel Luca
