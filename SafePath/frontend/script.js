@@ -1,19 +1,48 @@
-async function gethospitais(latitude, longitude) {
+async function initMap() {
+    const response = await fetch("http://localhost:8000/api/mapa");
+    const data = await response.json();
+
+    const script = document.createElement('script');
+    script.src = data.url;
+    script.async = true;
+
+    script.onload = () => {
+        getLocation(); 
+    };
+
+    document.head.appendChild(script);
+}
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(position => {
+            const latitude = position.coords.latitude;
+            const longitude = position.coords.longitude;
+            getHospitais(latitude, longitude);
+        }, () => {
+            alert("Erro ao obter a localização.");
+        });
+    } else {
+        alert("Geolocalização não é suportada por este navegador.");
+    }
+}
+
+async function getHospitais(latitude, longitude) {
     try {
-        const response = await fetch(`http://localhost:8000/hospitais?latitude=${latitude}&longitude=${longitude}`);
+        const response = await fetch(`http://localhost:8000/api/hospitais?latitude=${latitude}&longitude=${longitude}`);
         if (!response.ok) {
             console.error("Erro ao buscar hospitais:", response.statusText);
             return;
         }
 
         const hospitais = await response.json();
-        initMap(hospitais, latitude, longitude);
+        displayMap(hospitais, latitude, longitude);
     } catch (error) {
         console.error("Erro ao buscar hospitais:", error);
     }
 }
 
-function initMap(hospitais, latitude, longitude) {
+async function displayMap(hospitais, latitude, longitude) {
     const mapOptions = {
         zoom: 12,
         center: new google.maps.LatLng(latitude, longitude),
@@ -85,8 +114,7 @@ function initMap(hospitais, latitude, longitude) {
         });
 
         const hospitalInfoWindow = new google.maps.InfoWindow({
-            content: `
-                <h3>${hospital.name}</h3>`
+            content: `<h3>${hospital.name}</h3>`
         });
 
         hospitalMarker.addListener("click", () => {
@@ -95,18 +123,16 @@ function initMap(hospitais, latitude, longitude) {
     });
 }
 
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(position => {
-            const latitude = position.coords.latitude;
-            const longitude = position.coords.longitude;
-            gethospitais(latitude, longitude);
-        }, () => {
-            alert("Erro ao obter a localização.");
-        });
-    } else {
-        alert("Geolocalização não é suportada por este navegador.");
-    }
+function getDistance(lat1, lng1, lat2, lng2) {
+    const R = 6371; // Raio da Terra em km
+    const dLat = (lat2 - lat1) * (Math.PI / 180);
+    const dLng = (lng2 - lng1) * (Math.PI / 180);
+    const a = 
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) * 
+        Math.sin(dLng / 2) * Math.sin(dLng / 2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c; // Retorna a distância em km
 }
 
 function getNearestHospital(userLat, userLng, hospitais) {
@@ -124,14 +150,4 @@ function getNearestHospital(userLat, userLng, hospitais) {
     return nearestHospital;
 }
 
-function getDistance(lat1, lng1, lat2, lng2) {
-    const R = 6371; // Raio da Terra em km
-    const dLat = (lat2 - lat1) * (Math.PI / 180);
-    const dLng = (lng2 - lng1) * (Math.PI / 180);
-    const a = 
-        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-        Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) * 
-        Math.sin(dLng / 2) * Math.sin(dLng / 2);
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    return R * c;
-}
+document.addEventListener("DOMContentLoaded", initMap);

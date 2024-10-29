@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # Importação de módulos internos
+from routes.mapa import router as map_router
 from routes.hospitais import router as hospitals_router
 
 # Instância do aplicativo FastAPI
@@ -19,3 +20,4 @@ app.add_middleware(
 
 # Inclui as rotas para a rota de hospitais
 app.include_router(hospitals_router)
+app.include_router(map_router)
