@@ -4,7 +4,7 @@
 - [Pesquisa de Mercado](https://docs.google.com/document/d/1cfd-ltPCOWSlzuF62OYldeXhbb_UWN4iw8p16xRZLpI/edit?tab=t.0#heading=h.37cwzhibzg9e)  
 - [Visão do Produto](https://docs.google.com/document/d/1cBeZ_wYlCSqY701Mw1nDBI26f3YT0ezNRKRKzXN0f2Y/edit?tab=t.0#heading=h.sqpyd14eofld)  
 - [É / Não é - Faz / Não Faz](https://docs.google.com/document/d/1w5BlMubuHblDTXDgWIJsNayMI9qJjgFaXfvPhBIwTlQ/edit?tab=t.0)  
-- [Apresentação em vídeo dos Documentos](https://drive.google.com/file/d/1ypXCMu-3UMO0CYSWFvG1falTy8Cwe7Xz/view?usp=sharing)
+- [Apresentação em vídeo dos documentos](https://drive.google.com/file/d/1ypXCMu-3UMO0CYSWFvG1falTy8Cwe7Xz/view?usp=sharing)
 
 
 ## Equipe
