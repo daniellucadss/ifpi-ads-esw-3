@@ -1,5 +1,5 @@
 async function initMap() {
-    const response = await fetch("http://localhost:8000/api/mapa");
+    const response = await fetch("https://safepath-server.onrender.com/api/mapa");
     const data = await response.json();
 
     const script = document.createElement('script');
@@ -29,7 +29,7 @@ function getLocation() {
 
 async function getHospitais(latitude, longitude) {
     try {
-        const response = await fetch(`http://localhost:8000/api/hospitais?latitude=${latitude}&longitude=${longitude}`);
+        const response = await fetch(`https://safepath-server.onrender.com/api/hospitais?latitude=${latitude}&longitude=${longitude}`);
         if (!response.ok) {
             console.error("Erro ao buscar hospitais:", response.statusText);
             return;
