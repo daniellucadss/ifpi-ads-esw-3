@@ -1,9 +1,12 @@
-# Documentação
-## Documentos (Inception)  
-- [Briefing](https://docs.google.com/document/d/1Aj7c9ebzcaP6ydN3INdb6KQbKeVWPc5xIG1-7dUJRgM/edit?tab=t.0#heading=h.ood4pffllrqr)  
-- [Pesquisa de Mercado](https://docs.google.com/document/d/1cfd-ltPCOWSlzuF62OYldeXhbb_UWN4iw8p16xRZLpI/edit?tab=t.0#heading=h.37cwzhibzg9e)  
-- [Visão do Produto](https://docs.google.com/document/d/1cBeZ_wYlCSqY701Mw1nDBI26f3YT0ezNRKRKzXN0f2Y/edit?tab=t.0#heading=h.sqpyd14eofld)  
-- [É / Não é - Faz / Não Faz](https://docs.google.com/document/d/1w5BlMubuHblDTXDgWIJsNayMI9qJjgFaXfvPhBIwTlQ/edit?tab=t.0)  
+# Inception
+## Artefatos  
+1. [Briefing](https://docs.google.com/document/d/1Aj7c9ebzcaP6ydN3INdb6KQbKeVWPc5xIG1-7dUJRgM/edit?tab=t.0#heading=h.ood4pffllrqr)  
+2. [Pesquisa de Mercado](https://docs.google.com/document/d/1cfd-ltPCOWSlzuF62OYldeXhbb_UWN4iw8p16xRZLpI/edit?tab=t.0#heading=h.37cwzhibzg9e)  
+3. [Visão do Produto](https://docs.google.com/document/d/1cBeZ_wYlCSqY701Mw1nDBI26f3YT0ezNRKRKzXN0f2Y/edit?tab=t.0#heading=h.sqpyd14eofld)  
+4. [É / Não é - Faz / Não Faz](https://docs.google.com/document/d/1w5BlMubuHblDTXDgWIJsNayMI9qJjgFaXfvPhBIwTlQ/edit?tab=t.0)
+5. [Caixa do Produto](https://docs.google.com/document/d/1RWUOzggHN5BFnttJDKBXNiXK-Igq_CqT/edit#heading=h.gjdgxs)
+6. [Personas](https://drive.google.com/file/d/1UH45OCdFchlXyc6jbVe6pokRmvupjOS2/view?usp=drive_link)
+7. [Mapas de Empatia](https://drive.google.com/file/d/1VPt7GgsbUjetL5nDauKHdyoISckUJ9a_/view?usp=drive_link) 
 - [Apresentação em vídeo dos documentos](https://drive.google.com/file/d/1ypXCMu-3UMO0CYSWFvG1falTy8Cwe7Xz/view?usp=sharing)
 
 # Definições iniciais
