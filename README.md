@@ -47,5 +47,5 @@ Nem sempre é fácil encontrar um hospital ou clínica rapidamente quando mais p
 A apresentação em vídeo do projeto está disponível [aqui](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR).
 
 ## Protótipo
-[SafePath](https://safe-path.onrender.com/)
+[LISA](https://safe-path.onrender.com/)
 
