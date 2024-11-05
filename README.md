@@ -7,7 +7,7 @@
 5. [Caixa do Produto](https://docs.google.com/document/d/1RWUOzggHN5BFnttJDKBXNiXK-Igq_CqT/edit#heading=h.gjdgxs)
 6. [Personas](https://drive.google.com/file/d/1UH45OCdFchlXyc6jbVe6pokRmvupjOS2/view?usp=drive_link)
 7. [Mapas de Empatia](https://drive.google.com/file/d/1VPt7GgsbUjetL5nDauKHdyoISckUJ9a_/view?usp=drive_link) 
-- [Apresentação em vídeo dos documentos](https://drive.google.com/file/d/1ypXCMu-3UMO0CYSWFvG1falTy8Cwe7Xz/view?usp=sharing)
+- [Vídeo de apresentação dos artefatos](https://drive.google.com/file/d/1RnbyOkRqMXRU-PN-ptoXcF3t7WExbCRo/view?usp=sharing)
 
 # Definições iniciais
 ## Equipe
@@ -44,7 +44,7 @@ Nem sempre é fácil encontrar um hospital ou clínica rapidamente quando mais p
 - **Firebase**: Para a parte de autenticação e armazenamento de dados dos usuários.
 
 ## Vídeo de Apresentação
-A apresentação em vídeo do projeto está disponível [aqui](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR).
+O vídeo de apresentação das definições iniciais está disponível [aqui](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR).
 
 ## Protótipo
 [LISA](https://safe-path.onrender.com/)
