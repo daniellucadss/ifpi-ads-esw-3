@@ -1,0 +1,14 @@
+.map-button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.map-button:hover {
+    background-color: #357ae8;
+}
