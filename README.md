@@ -29,8 +29,6 @@ Com relação à sugestões, não encontramos o mapa de empatia, que poderia ser
 3. [Visão do Produto](https://docs.google.com/document/d/1cBeZ_wYlCSqY701Mw1nDBI26f3YT0ezNRKRKzXN0f2Y/edit?tab=t.0#heading=h.sqpyd14eofld)  
 4. [É / Não é - Faz / Não Faz](https://docs.google.com/document/d/1w5BlMubuHblDTXDgWIJsNayMI9qJjgFaXfvPhBIwTlQ/edit?tab=t.0)
 
-
-
 ## 00 - Apresentação da disciplina
 ### Definições iniciais
 ### 1. Equipe
