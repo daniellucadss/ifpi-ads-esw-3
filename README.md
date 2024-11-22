@@ -15,7 +15,7 @@ O documento de Briefing está bem claro, apresentando de forma bem definida o pr
 
 De forma geral, os artefatos estão bem concisos e consistentes entre si, o que facilita a compreensão do projeto. A Pesquisa de Mercado em especial, trouxe um bom levantamento de informações e seleções de concorrentes, ao dar destaque à como a tecnologia aliada à educação é de grande importância nos dias atuais, vide o cenário da pandemia que vivemos há alguns anos.
 
-Com relação à sugestões, não encontramos o mapa de empatia, que poderia ser um artefato interessante para entender melhor o público-alvo do projeto. Além disso, seria interessante tornar o documento da Visão do Produto um pouco mais visual, com uma visão mais geral e resumida do estado futuro do projeto que a equipe deseja alcançar.
+Com relação à sugestões, não encontramos o mapa de empatia, que poderia ser um artefato interessante para entender melhor o público-alvo do projeto.
 
 ### Artefatos (Atividade 2)
 5. [Caixa do Produto](https://docs.google.com/document/d/1RWUOzggHN5BFnttJDKBXNiXK-Igq_CqT/edit#heading=h.gjdgxs)
