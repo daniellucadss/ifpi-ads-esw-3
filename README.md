@@ -5,12 +5,28 @@
 ## 01 - Inception
 ### Artefatos (Atividade final da fase Inception)
 
-8. Diagrama de Navegação
-- ![Diagrama de Navegação](https://drive.google.com/file/d/1oVQ1mImj9MWC_AeKatPE3_Z9K5fjVGZN/view?usp=sharing)
-9. Rabiscoframe
-- 9.1![Rabiscoframe](https://drive.google.com/file/d/1OWRUzKrbhqWVeaGhWplSodKidde7-wht/view)
-- 9.2![Rabiscoframe](https://drive.google.com/file/d/1OWRUzKrbhqWVeaGhWplSodKidde7-wht/view)
+8. [Diagrama de Navegação](https://drive.google.com/file/d/1oVQ1mImj9MWC_AeKatPE3_Z9K5fjVGZN/view)
+![Diagrama de Navegação](https://i.imgur.com/BavwlAv.jpeg)
+9. [Rabiscoframe](https://drive.google.com/drive/folders/1iVk1GM58hsw8LjbmL5ncWgVvy1T-NGCk)
+![Rabiscoframe](https://i.imgur.com/PznkyaJ.jpeg)
+![Rabiscoframe](https://i.imgur.com/gDOOBuL.jpeg)
 10. [Flat Backlog](https://docs.google.com/spreadsheets/d/1s_MSr0p3xCHqZr8RNezveVGHjVR181oiZAOo-A6a7Mg/edit?gid=0#gid=0)
+
+      | ID  | Funcionalidade             | Categoria               |
+      |-----|----------------------------|-------------------------|
+      | 1   | Cadastro de Usuário        | Cadastro                |
+      | 2   | Login de Usuário           | Autenticação            |
+      | 3   | Recuperação de Senha       | Autenticação            |
+      | 4   | Perfil do Usuário          | CRUD                    |
+      | 5   | Mapa de Localizações       | Funcionalidade Principal|
+      | 6   | Detalhes da Localização    | Leitura                 |
+      | 7   | Avaliações de Locais       | CRUD                    |
+      | 8   | Favoritos                  | CRUD                    |
+      | 9   | Traçar Rota                | Funcionalidade Principal|
+      | 10  | Botão "Localizar Próximo"  | Funcionalidade Principal|
+      | 12  | Notificações de Novos Locais| Funcionalidade Secundária|
+      | 13  | Integração com Google Maps | Integração Externa      |
+
 
 
 ### Avaliação de equipe para equipe (Feedback para o projeto Synapse)
