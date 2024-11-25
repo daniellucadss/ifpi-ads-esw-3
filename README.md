@@ -1,9 +1,17 @@
 ## Protótipo (Esperar um tempo para o deploy...)
 
-[LISA (Web)](https://lisa-h9ia.onrender.com)
+[LISA](https://lisa-h9ia.onrender.com)
 
-## 01 - Inception
+## Link para todos os vídeos de apresentação
+- [Definições iniciais](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR)
+- [Atividade 2 (Inception)](https://drive.google.com/file/d/1RnbyOkRqMXRU-PN-ptoXcF3t7WExbCRo/view?usp=sharing)
+- [Atividade final da fase Inception]()
+
+## 📂 01 - Inception
 ### Artefatos (Atividade final da fase Inception)
+---
+### Vídeo de apresentação
+O vídeo de apresentação dos artefatos finais está disponível [aqui]().
 
 8. [Diagrama de Navegação](https://drive.google.com/file/d/1oVQ1mImj9MWC_AeKatPE3_Z9K5fjVGZN/view)
 
@@ -30,8 +38,9 @@
       | 10  | Botão "Localizar Próximo"  | Funcionalidade Principal|
       | 12  | Notificações de Novos Locais| Funcionalidade Secundária|
       | 13  | Integração com Google Maps | Integração Externa      |
-
+    
 ### Avaliação de equipe para equipe (Feedback para o projeto Synapse)
+---
 [Link para o repositório do projeto Synapse](https://github.com/ryofac/synapse_eng_software_III)
 
 Synapse é um projeto que visa tornar a experiência em sala de aula mais dinâmica e atrativa para alunos e professores. O que se destaca no projeto é a proposta de um sistema que incentiva a participação dos alunos e promove um ambiente mais colaborativo e engajador, promovendo uma aprendizagem de forma mais horizontal, centrada nos alunos. 
@@ -43,6 +52,10 @@ De forma geral, os artefatos estão bem concisos e consistentes entre si, o que 
 Com relação à sugestões, não encontramos o mapa de empatia, que poderia ser um artefato interessante para entender melhor o público-alvo do projeto.
 
 ### Artefatos (Atividade 2)
+---
+### Vídeo de apresentação
+O vídeo de apresentação dos artefatos está disponível [aqui](https://drive.google.com/file/d/1RnbyOkRqMXRU-PN-ptoXcF3t7WExbCRo/view?usp=sharing).
+
 5. [Caixa do Produto](https://docs.google.com/document/d/1RWUOzggHN5BFnttJDKBXNiXK-Igq_CqT/edit#heading=h.gjdgxs)
 6. [Personas](https://drive.google.com/file/d/1UH45OCdFchlXyc6jbVe6pokRmvupjOS2/view?usp=drive_link)
 
@@ -53,7 +66,6 @@ Com relação à sugestões, não encontramos o mapa de empatia, que poderia ser
 ![Mapas de Empatia](https://i.imgur.com/3Vmucuy.jpeg) 
 ![Mapas de Empatia](https://i.imgur.com/DrBSs5v.jpeg) 
 ![Mapas de Empatia](https://i.imgur.com/gWZlKyD.jpeg) 
-- [Vídeo de apresentação dos artefatos](https://drive.google.com/file/d/1RnbyOkRqMXRU-PN-ptoXcF3t7WExbCRo/view?usp=sharing)
 
 ### Artefatos (Atividade 1)
 1. [Briefing](https://docs.google.com/document/d/1Aj7c9ebzcaP6ydN3INdb6KQbKeVWPc5xIG1-7dUJRgM/edit?tab=t.0#heading=h.ood4pffllrqr)  
@@ -61,14 +73,18 @@ Com relação à sugestões, não encontramos o mapa de empatia, que poderia ser
 3. [Visão do Produto](https://docs.google.com/document/d/1cBeZ_wYlCSqY701Mw1nDBI26f3YT0ezNRKRKzXN0f2Y/edit?tab=t.0#heading=h.sqpyd14eofld)  
 4. [É / Não é - Faz / Não Faz](https://docs.google.com/document/d/1w5BlMubuHblDTXDgWIJsNayMI9qJjgFaXfvPhBIwTlQ/edit?tab=t.0)
 
-## 00 - Apresentação da disciplina
+## 📂 00 - Apresentação da disciplina
 ### Definições iniciais
+---
+### Vídeo de apresentação
+O vídeo de apresentação das definições iniciais está disponível [aqui](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR).
+
 ### 1. Equipe
 - Daniel Luca
 - Francisco Igor
 - Israel Benvindo
 - Rafael Martins
-
+  
 ### 2. Área / Tema Principal
 *Saúde*
 
@@ -95,6 +111,3 @@ Nem sempre é fácil encontrar um hospital ou clínica rapidamente quando mais p
 - *Flutter*: É a base para o desenvolvimento do aplicativo.
 - *Google API*: Usaremos para localizar hospitais e clínicas.
 - *Firebase*: Para a parte de autenticação e armazenamento de dados dos usuários.
-
-### 7. Vídeo de Apresentação
-O vídeo de apresentação das definições iniciais está disponível [aqui](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR).
