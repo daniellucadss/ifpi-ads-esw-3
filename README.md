@@ -4,7 +4,14 @@
 
 ## 01 - Inception
 ### Artefatos (Atividade final da fase Inception)
-...
+
+8. Diagrama de Navegação
+- ![Diagrama de Navegação](https://drive.google.com/file/d/1oVQ1mImj9MWC_AeKatPE3_Z9K5fjVGZN/view?usp=sharing)
+9. Rabiscoframe
+- 9.1![Rabiscoframe](https://drive.google.com/file/d/1OWRUzKrbhqWVeaGhWplSodKidde7-wht/view)
+- 9.2![Rabiscoframe](https://drive.google.com/file/d/1OWRUzKrbhqWVeaGhWplSodKidde7-wht/view)
+10. [Flat Backlog](https://docs.google.com/spreadsheets/d/1s_MSr0p3xCHqZr8RNezveVGHjVR181oiZAOo-A6a7Mg/edit?gid=0#gid=0)
+
 
 ### Avaliação de equipe para equipe (Feedback para o projeto Synapse)
 [Link para o repositório do projeto Synapse](https://github.com/ryofac/synapse_eng_software_III)
