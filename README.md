@@ -45,7 +45,14 @@ Com relação à sugestões, não encontramos o mapa de empatia, que poderia ser
 ### Artefatos (Atividade 2)
 5. [Caixa do Produto](https://docs.google.com/document/d/1RWUOzggHN5BFnttJDKBXNiXK-Igq_CqT/edit#heading=h.gjdgxs)
 6. [Personas](https://drive.google.com/file/d/1UH45OCdFchlXyc6jbVe6pokRmvupjOS2/view?usp=drive_link)
-7. [Mapas de Empatia](https://drive.google.com/file/d/1VPt7GgsbUjetL5nDauKHdyoISckUJ9a_/view?usp=drive_link) 
+
+![Personas](https://i.imgur.com/LtDa3QK.jpeg)
+
+7. [Mapas de Empatia](https://drive.google.com/file/d/1VPt7GgsbUjetL5nDauKHdyoISckUJ9a_/view?usp=drive_link)
+
+![Mapas de Empatia](https://i.imgur.com/3Vmucuy.jpeg) 
+![Mapas de Empatia](https://i.imgur.com/DrBSs5v.jpeg) 
+![Mapas de Empatia](https://i.imgur.com/gWZlKyD.jpeg) 
 - [Vídeo de apresentação dos artefatos](https://drive.google.com/file/d/1RnbyOkRqMXRU-PN-ptoXcF3t7WExbCRo/view?usp=sharing)
 
 ### Artefatos (Atividade 1)
