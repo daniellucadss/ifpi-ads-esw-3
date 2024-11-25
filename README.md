@@ -9,12 +9,12 @@
 
 ![Diagrama de Navegação](https://i.imgur.com/BavwlAv.jpeg)
 
-10. [Rabiscoframe](https://drive.google.com/drive/folders/1iVk1GM58hsw8LjbmL5ncWgVvy1T-NGCk)
+9. [Rabiscoframe](https://drive.google.com/drive/folders/1iVk1GM58hsw8LjbmL5ncWgVvy1T-NGCk)
 
 ![Rabiscoframe](https://i.imgur.com/PznkyaJ.jpeg)
 ![Rabiscoframe](https://i.imgur.com/gDOOBuL.jpeg)
 
-11. [Flat Backlog](https://docs.google.com/spreadsheets/d/1s_MSr0p3xCHqZr8RNezveVGHjVR181oiZAOo-A6a7Mg/edit?gid=0#gid=0)
+10. [Flat Backlog](https://docs.google.com/spreadsheets/d/1s_MSr0p3xCHqZr8RNezveVGHjVR181oiZAOo-A6a7Mg/edit?gid=0#gid=0)
 
       | ID  | Funcionalidade             | Categoria               |
       |-----|----------------------------|-------------------------|
@@ -30,8 +30,6 @@
       | 10  | Botão "Localizar Próximo"  | Funcionalidade Principal|
       | 12  | Notificações de Novos Locais| Funcionalidade Secundária|
       | 13  | Integração com Google Maps | Integração Externa      |
-
-
 
 ### Avaliação de equipe para equipe (Feedback para o projeto Synapse)
 [Link para o repositório do projeto Synapse](https://github.com/ryofac/synapse_eng_software_III)
