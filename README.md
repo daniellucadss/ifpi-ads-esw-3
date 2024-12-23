@@ -9,6 +9,9 @@
 - [Projeto e prototipação]()
 
 ## 📂 02 - Projeto e prototipação
+### Vídeo de apresentação
+O vídeo de apresentação do projeto e prototipação está disponível [aqui]().
+
 1. Sprint Backlog
 ![Wireframes](https://i.imgur.com/IB69tLl.png)
 
