@@ -6,13 +6,11 @@
 - [Definições iniciais](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR)
 - [Atividade 2 (Inception)](https://drive.google.com/file/d/1RnbyOkRqMXRU-PN-ptoXcF3t7WExbCRo/view?usp=sharing)
 - [Atividade final da fase Inception](https://drive.google.com/file/d/1SEtx0Cbl13EjUGzzDgJ5nMIPTj8pLvCA/view?usp=sharing)
-- [Projeto e prototipação]()
+- [Projeto e prototipação](https://drive.google.com/file/d/1qdY1r7EQcEticXKyLCX5s0UFLGDmw3_y/view?usp=sharing)
 
 ## 📂 02 - Projeto e prototipação
 ### Vídeo de apresentação
-O vídeo de apresentação do projeto e prototipação está disponível [aqui]().
-
-Vídeo de apresentação dos artefatos a seguir, [aqui](https://drive.google.com/file/d/1qdY1r7EQcEticXKyLCX5s0UFLGDmw3_y/view?usp=sharing).
+O vídeo de apresentação do projeto e prototipação está disponível [aqui](https://drive.google.com/file/d/1qdY1r7EQcEticXKyLCX5s0UFLGDmw3_y/view?usp=sharing).
 
 1. Sprint Backlog
 ![Wireframes](https://i.imgur.com/IB69tLl.png)
