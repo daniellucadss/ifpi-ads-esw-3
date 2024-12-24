@@ -21,6 +21,8 @@ O vídeo de apresentação do projeto e prototipação está disponível [aqui](
 3. Modelo entidade-relacionamento preliminar
 ![Modelo entidade-relacionamento preliminar](https://i.imgur.com/jTg2l0Y.png)
 
+Vídeo de apresentação dos artefatos [aqui](https://drive.google.com/file/d/1qdY1r7EQcEticXKyLCX5s0UFLGDmw3_y/view?usp=sharing).
+
 ## 📂 01 - Inception
 ### Artefatos (Atividade final da fase Inception)
 ---
