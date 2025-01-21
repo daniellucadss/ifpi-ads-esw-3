@@ -1,18 +1,28 @@
-## Review da Sprint
-[Review](https://docs.google.com/document/d/15TDLBFpEtGucaYDmU9feanib-oQNqHd-Euo-9F2u6T4/edit?usp=sharing)
-
-
-## Projeto em produção (Esperar um tempo para o deploy...)
-
-[LISA](https://lisa-h9ia.onrender.com)
-### Vídeo de apresentação
-O vídeo de apresentação do projeto em produção está disponível [aqui](https://drive.google.com/file/d/1bANzWy_UupawMiKnVa-uLVII5wc46ZgJ/view?usp=sharing).
-
-## Link para todos os vídeos de apresentação
+## 📂 Link para todos os vídeos de apresentação
 - [Definições iniciais](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR)
 - [Atividade 2 (Inception)](https://drive.google.com/file/d/1RnbyOkRqMXRU-PN-ptoXcF3t7WExbCRo/view?usp=sharing)
 - [Atividade final da fase Inception](https://drive.google.com/file/d/1SEtx0Cbl13EjUGzzDgJ5nMIPTj8pLvCA/view?usp=sharing)
 - [Projeto e prototipação](https://drive.google.com/file/d/1qdY1r7EQcEticXKyLCX5s0UFLGDmw3_y/view?usp=sharing)
+- [Sprint 1](https://drive.google.com/file/d/1bANzWy_UupawMiKnVa-uLVII5wc46ZgJ/view?usp=sharing)
+- [Sprint 2](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing)
+
+---
+
+## 📂 Sprint 2
+### Vídeo de apresentação da Sprint 2
+O vídeo de apresentação da Sprint 2 está disponível [aqui](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing).
+
+---
+
+## 📂 Sprint 1
+[LISA v1](https://lisa-h9ia.onrender.com)
+### Vídeo de apresentação da Sprint 1
+O vídeo de apresentação da Sprint 1 está disponível [aqui](https://drive.google.com/file/d/1bANzWy_UupawMiKnVa-uLVII5wc46ZgJ/view?usp=sharing).
+
+### Review da Sprint 1
+[Review](https://docs.google.com/document/d/15TDLBFpEtGucaYDmU9feanib-oQNqHd-Euo-9F2u6T4/edit?usp=sharing)
+
+---
 
 ## 📂 02 - Projeto e prototipação
 ### Vídeo de apresentação
