@@ -8,7 +8,7 @@
 PRODUCT_NAME = trabalho_loc_ai
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.br.LISA.trabalhoLocAi
+PRODUCT_BUNDLE_IDENTIFIER = com.br.LocalizaAAIII.trabalhoLocAi
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2024 com.br.LocalizaAAIII. All rights reserved.

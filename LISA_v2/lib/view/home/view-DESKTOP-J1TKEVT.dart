@@ -151,7 +151,7 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                     ),
                   ),
                   const SizedBox(height: 16.0),
-                  // Botão para favoritar o local, com icone de estrela e fundo amarelo
+                  //botão para favoritar o local, com icone de estrela e fundo amarelo
                   Container(
                     width: 120,
                     decoration: BoxDecoration(
