@@ -14,6 +14,9 @@
 ### Vídeo de apresentação da Sprint 2
 - O vídeo de apresentação da Sprint 2 está disponível [aqui](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing).
 
+### Review da Sprint 2
+- [Review](https://docs.google.com/document/d/16IfNsdwz42zkfZgqu8DrPcaiZVyRwbNahgn9R_wxkCQ/edit?tab=t.0)
+
 ---
 
 ## 📂 Sprint 1
