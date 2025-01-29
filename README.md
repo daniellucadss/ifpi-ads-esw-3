@@ -6,21 +6,26 @@
 - [Sprint 1](https://drive.google.com/file/d/1bANzWy_UupawMiKnVa-uLVII5wc46ZgJ/view?usp=sharing)
 - [Sprint 2](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing)
 
+[Link para o projeto em produção](https://github.com/daniellucadss/ifpi-ads-esw-3/tree/main/LISA_v2)
+
 ---
 
 ## 📂 Sprint 2
 ### Vídeo de apresentação da Sprint 2
-O vídeo de apresentação da Sprint 2 está disponível [aqui](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing).
+- O vídeo de apresentação da Sprint 2 está disponível [aqui](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing).
+
+### Review da Sprint 2
+- [Review](https://docs.google.com/document/d/16IfNsdwz42zkfZgqu8DrPcaiZVyRwbNahgn9R_wxkCQ/edit?tab=t.0)
 
 ---
 
 ## 📂 Sprint 1
 [LISA v1](https://lisa-h9ia.onrender.com)
 ### Vídeo de apresentação da Sprint 1
-O vídeo de apresentação da Sprint 1 está disponível [aqui](https://drive.google.com/file/d/1bANzWy_UupawMiKnVa-uLVII5wc46ZgJ/view?usp=sharing).
+- O vídeo de apresentação da Sprint 1 está disponível [aqui](https://drive.google.com/file/d/1bANzWy_UupawMiKnVa-uLVII5wc46ZgJ/view?usp=sharing).
 
 ### Review da Sprint 1
-[Review](https://docs.google.com/document/d/15TDLBFpEtGucaYDmU9feanib-oQNqHd-Euo-9F2u6T4/edit?usp=sharing)
+- [Review](https://docs.google.com/document/d/15TDLBFpEtGucaYDmU9feanib-oQNqHd-Euo-9F2u6T4/edit?usp=sharing)
 
 ---
 
