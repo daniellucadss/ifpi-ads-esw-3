@@ -91,6 +91,7 @@ class _LoginState extends State<LoginPage> {
                       decoration: const InputDecoration(
                         labelText: 'Email',
                         hintText: 'Digite seu email',
+                        hintStyle: TextStyle(color: Colors.grey, fontSize: 15),
                         prefixIcon: Icon(Icons.email_outlined),
                         border: OutlineInputBorder(),
                       ),
@@ -114,6 +115,7 @@ class _LoginState extends State<LoginPage> {
                       decoration: InputDecoration(
                         labelText: 'Senha',
                         hintText: 'Digite sua senha',
+                        hintStyle: const TextStyle(color: Colors.grey, fontSize: 15),
                         prefixIcon: const Icon(Icons.lock_outline_rounded),
                         border: const OutlineInputBorder(),
                         suffixIcon: IconButton(
@@ -153,7 +155,9 @@ class _LoginState extends State<LoginPage> {
                             decoration: InputDecoration(
                               labelText: 'Confirme a senha',
                               hintText: 'Confirme sua senha',
-                              prefixIcon: const Icon(Icons.lock_outline_rounded),
+                              hintStyle: const TextStyle(color: Colors.grey, fontSize: 15),
+                              prefixIcon:
+                                  const Icon(Icons.lock_outline_rounded),
                               border: const OutlineInputBorder(),
                               suffixIcon: IconButton(
                                 icon: Icon(_isConfirmPasswordVisible
@@ -161,7 +165,8 @@ class _LoginState extends State<LoginPage> {
                                     : Icons.visibility),
                                 onPressed: () {
                                   setState(() {
-                                    _isConfirmPasswordVisible = !_isConfirmPasswordVisible;
+                                    _isConfirmPasswordVisible =
+                                        !_isConfirmPasswordVisible;
                                   });
                                 },
                               ),
@@ -182,6 +187,7 @@ class _LoginState extends State<LoginPage> {
                             decoration: const InputDecoration(
                               labelText: 'Nome Completo',
                               hintText: 'Digite seu nome completo',
+                              hintStyle: TextStyle(color: Colors.grey, fontSize: 15),
                               prefixIcon: Icon(Icons.person_outline),
                               border: OutlineInputBorder(),
                             ),
@@ -197,7 +203,8 @@ class _LoginState extends State<LoginPage> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(4),
                           ),
-                          backgroundColor: queroEntrar ? Colors.green : Colors.blue,
+                          backgroundColor:
+                              queroEntrar ? Colors.green : Colors.blue,
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(10.0),
@@ -227,6 +234,17 @@ class _LoginState extends State<LoginPage> {
                             : 'Já tem uma conta? Clique aqui!',
                       ),
                     ),
+                    if (queroEntrar)
+                      TextButton(
+                        onPressed: () {
+                          Navigator.of(context).push(
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    const RecuperarSenhaPage()),
+                          );
+                        },
+                        child: const Text('Esqueceu a senha?'),
+                      ),
                   ],
                 ),
               ),
@@ -246,36 +264,105 @@ class _LoginState extends State<LoginPage> {
 
     if (_formKey.currentState!.validate()) {
       if (queroEntrar) {
-        _autenticacaoServico
-            .logarUsuario(email: email, senha: senha)
-            .then(
-              (String? erro) {
-                if (erro != null) {
-                  mostrarSnackBar(context: context, texto: erro);
-                }
-              },
-            );
+        _autenticacaoServico.logarUsuario(email: email, senha: senha).then(
+          (String? erro) {
+            if (erro != null) {
+              mostrarSnackBar(context: context, texto: erro);
+            }
+          },
+        );
         print('Entrada validada');
       } else {
         _autenticacaoServico
             .cadastrarUsuario(nome: nome, email: email, senha: senha)
             .then(
-              (String? erro) {
-                if (erro != null) {
-                  mostrarSnackBar(context: context, texto: erro);
-                } else {
-                  mostrarSnackBar(
-                    context: context,
-                    texto: 'Cadastro efetuado com sucesso!',
-                    isError: false,
-                  );
-                }
-              },
-            );
+          (String? erro) {
+            if (erro != null) {
+              mostrarSnackBar(context: context, texto: erro);
+            } else {
+              mostrarSnackBar(
+                context: context,
+                texto: 'Cadastro efetuado com sucesso!',
+                isError: false,
+              );
+            }
+          },
+        );
         print('Cadastro validado');
       }
     } else {
       print('Form inválido');
     }
+  }
+}
+
+class RecuperarSenhaPage extends StatefulWidget {
+  const RecuperarSenhaPage({super.key});
+
+  @override
+  State<RecuperarSenhaPage> createState() => _RecuperarSenhaPageState();
+}
+
+class _RecuperarSenhaPageState extends State<RecuperarSenhaPage> {
+  final _emailController = TextEditingController();
+  final _formKey = GlobalKey<FormState>();
+  final AutenticacaoServico _autenticacaoServico = AutenticacaoServico();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Recuperar Senha')),
+      body: Form(
+        key: _formKey,
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              TextFormField(
+                controller: _emailController,
+                keyboardType: TextInputType.emailAddress,
+                autofillHints: const [AutofillHints.email],
+                validator: (String? value) {
+                  if (value!.isEmpty) {
+                    return "O campo e-mail deve ser preenchido.";
+                  }
+                  if (!value.contains("@")) {
+                    return "O campo e-mail deve conter um @.";
+                  }
+                  return null;
+                },
+                decoration: const InputDecoration(
+                  labelText: 'Email',
+                  hintText: 'Digite seu email',
+                  prefixIcon: Icon(Icons.email_outlined),
+                  border: OutlineInputBorder(),
+                ),
+              ),
+              const SizedBox(height: 16),
+              ElevatedButton(
+                onPressed: () {
+                  if (_formKey.currentState!.validate()) {
+                    _autenticacaoServico
+                        .recuperarSenha(email: _emailController.text)
+                        .then((String? erro) {
+                      if (erro != null) {
+                        mostrarSnackBar(context: context, texto: erro);
+                      } else {
+                        mostrarSnackBar(
+                          context: context,
+                          texto: 'E-mail de recuperação enviado!',
+                          isError: false,
+                        );
+                      }
+                    });
+                  }
+                },
+                child: const Text('Enviar e-mail de recuperação'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }

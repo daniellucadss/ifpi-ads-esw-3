@@ -51,4 +51,16 @@ class AutenticacaoServico {
   Future<void> deslogarUsuario() async {
     return await _firebaseAuth.signOut();
   }
+
+  Future<String?> recuperarSenha({required String email}) async {
+    try {
+      await _firebaseAuth.sendPasswordResetEmail(email: email);
+      return null;
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'user-not-found') {
+        return 'Usuário não encontrado com este e-mail.';
+      }
+      return 'Erro inesperado. Tente novamente.';
+    }
+  }
 }

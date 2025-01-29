@@ -22,10 +22,13 @@ class LocationMap extends StatefulWidget {
   State<LocationMap> createState() => LocationMapState();
 }
 
-class LocationMapState extends State<LocationMap> with TickerProviderStateMixin {
-  final Completer<GoogleMapController> _controller = Completer<GoogleMapController>();
+class LocationMapState extends State<LocationMap>
+    with TickerProviderStateMixin {
+  final Completer<GoogleMapController> _controller =
+      Completer<GoogleMapController>();
   final Set<Marker> _markers = {};
-  final CustomInfoWindowController _customInfoWindowController = CustomInfoWindowController();
+  final CustomInfoWindowController _customInfoWindowController =
+      CustomInfoWindowController();
 
   final FirebaseUtils _firebaseUtils = FirebaseUtils();
 
@@ -151,17 +154,17 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                     ),
                   ),
                   const SizedBox(height: 16.0),
-                  // Botão para favoritar o local, com icone de estrela e fundo amarelo
                   Container(
-                    width: 120,
+                    width: 150,
                     decoration: BoxDecoration(
-                      color: Colors.yellow,
+                      color:
+                          establishment.isFavorite ? Colors.yellow : Colors.red,
                       borderRadius: BorderRadius.circular(4),
                       border: Border.all(
                         width: 1.0,
                         color: establishment.isFavorite
                             ? Colors.yellow
-                            : Colors.white,
+                            : Colors.red,
                       ),
                       boxShadow: const [
                         BoxShadow(
@@ -198,10 +201,10 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                         );
                       },
                       icon: establishment.isFavorite
-                          ? const Icon(Icons.star)
-                          : const Icon(Icons.star_border_outlined),
+                          ? const Icon(Icons.favorite)
+                          : const Icon(Icons.favorite_border),
                       label: establishment.isFavorite
-                          ? const Text('Favorito')
+                          ? const Text('Desfavoritar')
                           : const Text('Favoritar'),
                     ),
                   ),
@@ -238,11 +241,13 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
       setState(() {
         _isLoading = true;
       });
-      List<EstablishmentModel> templeList = await getTempleList(_lastMapPosition!);
+      List<EstablishmentModel> templeList =
+          await getTempleList(_lastMapPosition!);
 
       for (int i = 0; i < templeList.length; i++) {
-        //verifica se o local já existe no mapa
-        if (_markers.any((marker) => marker.markerId == MarkerId(templeList[i].name))) {
+        // Verifica se o local já existe no mapa.
+        if (_markers
+            .any((marker) => marker.markerId == MarkerId(templeList[i].name))) {
           continue;
         }
 
@@ -263,7 +268,7 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
     }
   }
 
-  // metodo para pedir permissão de localização, é utilizado apenas para exibir a localização no mapa
+  // Metodo para pedir permissão de localização, é utilizado apenas para exibir a localização no mapa.
   Future<void> requestPermission() async {
     var status = await Geolocator.checkPermission();
     if (status == LocationPermission.denied) {
@@ -300,7 +305,7 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
           _mapStyle = string;
         });
       });
-    }); // para evitar erros durante o build
+    }); // Para evitar erros durante o build.
   }
 
   @override
@@ -331,8 +336,10 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
     double dLon = _toRadians(lon2 - lon1);
 
     double a = sin(dLat / 2) * sin(dLat / 2) +
-        cos(_toRadians(lat1)) * cos(_toRadians(lat2)) *
-        sin(dLon / 2) * sin(dLon / 2);
+        cos(_toRadians(lat1)) *
+            cos(_toRadians(lat2)) *
+            sin(dLon / 2) *
+            sin(dLon / 2);
 
     double c = 2 * atan2(sqrt(a), sqrt(1 - a));
 
@@ -347,7 +354,8 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
   // Função para encontrar a clínica mais próxima
   Future<EstablishmentModel?> findNearestClinic() async {
     Position currentPosition = await Geolocator.getCurrentPosition();
-    LatLng currentLocation = LatLng(currentPosition.latitude, currentPosition.longitude);
+    LatLng currentLocation =
+        LatLng(currentPosition.latitude, currentPosition.longitude);
 
     List<EstablishmentModel> clinics = await getTempleList(currentLocation);
 
@@ -380,7 +388,8 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
       );
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Nenhuma clínica encontrada nas proximidades.')),
+        const SnackBar(
+            content: Text('Nenhum hospital encontrado nas proximidades.')),
       );
     }
   }
@@ -397,7 +406,7 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
               zoom: 18,
             ),
             myLocationEnabled: true,
-            myLocationButtonEnabled: true,
+            myLocationButtonEnabled: false,
             padding: const EdgeInsets.only(top: 640.0, left: 10.0),
             compassEnabled: true,
             rotateGesturesEnabled: true,
@@ -438,22 +447,21 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
         ],
       ),
       floatingActionButton: ElevatedButton(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.blue,
+          foregroundColor: Colors.white,
+        ),
         onPressed: () {
           moveToNearestClinic();
         },
-        child: const Text('Encontrar clínica mais próxima'),
+        child: const Text('Encontrar hospital mais próximo'),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterTop,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerTop,
       bottomNavigationBar: BottomAppBar(
         color: Colors.blue,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            IconButton(
-              onPressed: () => {},
-              icon: const Icon(Icons.home),
-              tooltip: 'Home',
-            ),
             IconButton(
               onPressed: () {
                 if (_lastMapPosition == null) {
@@ -474,7 +482,7 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                         children: [
                           Icon(Icons.list, size: 48),
                           SizedBox(height: 8),
-                          Text('Lista de Estabelecimentos'),
+                          Text('Lista de Hospitais'),
                         ],
                       ),
                       contentPadding: const EdgeInsets.all(16),
@@ -483,13 +491,17 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                         child: FutureBuilder<List<EstablishmentModel>>(
                           future: getPlaces(currentLocation),
                           builder: (context, snapshot) {
-                            if (snapshot.connectionState == ConnectionState.waiting) {
-                              return const Center(child: CircularProgressIndicator());
-                            } else if (snapshot.hasError) {
-                              return Center(child: Text('Error: ${snapshot.error}'));
-                            } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
+                            if (snapshot.connectionState ==
+                                ConnectionState.waiting) {
                               return const Center(
-                                child: Text('Nenhum estabelecimento encontrado.'),
+                                  child: CircularProgressIndicator());
+                            } else if (snapshot.hasError) {
+                              return Center(
+                                  child: Text('Error: ${snapshot.error}'));
+                            } else if (!snapshot.hasData ||
+                                snapshot.data!.isEmpty) {
+                              return const Center(
+                                child: Text('Nenhum hospital encontrado.'),
                               );
                             }
 
@@ -516,7 +528,8 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                                               color: Colors.grey,
                                               width: 1,
                                             ),
-                                            borderRadius: BorderRadius.circular(20.0),
+                                            borderRadius:
+                                                BorderRadius.circular(20.0),
                                           ),
                                           child: ClipOval(
                                             child: Image.network(
@@ -530,11 +543,14 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                                         const SizedBox(width: 8.0),
                                         Expanded(
                                           child: Column(
-                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
                                             children: [
                                               Text(
                                                 establishment.name,
-                                                style: const TextStyle(fontWeight: FontWeight.bold),
+                                                style: const TextStyle(
+                                                    fontWeight:
+                                                        FontWeight.bold),
                                               ),
                                               Text(establishment.address),
                                             ],
@@ -557,8 +573,10 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                                         if (!context.mounted) return;
                                         Navigator.of(context).push(
                                           MaterialPageRoute(
-                                              builder: (context) => EstablishmentDetails(
-                                                    establishment: establishment,
+                                              builder: (context) =>
+                                                  EstablishmentDetails(
+                                                    establishment:
+                                                        establishment,
                                                   )),
                                         );
                                       });
@@ -575,7 +593,7 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                 );
               },
               icon: const Icon(Icons.list),
-              tooltip: 'Lista de estabelecimentos',
+              tooltip: 'Lista de Hospitais',
             ),
             IconButton(
               onPressed: () {
@@ -596,16 +614,28 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                         child: FutureBuilder<List<EstablishmentModel>>(
                           future: getTempleList(_lastMapPosition!),
                           builder: (context, snapshot) {
-                            if (snapshot.connectionState == ConnectionState.waiting) {
-                              return const Center(child: CircularProgressIndicator());
+                            if (snapshot.connectionState ==
+                                ConnectionState.waiting) {
+                              return const Center(
+                                  child: CircularProgressIndicator());
                             } else if (snapshot.hasError) {
-                              return Center(child: Text('Error: ${snapshot.error}'));
-                            } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
-                              return const Center(child: Text('Nenhum favorito encontrado.'));
+                              return Center(
+                                  child: Text('Error: ${snapshot.error}'));
+                            } else if (!snapshot.hasData ||
+                                snapshot.data!.isEmpty) {
+                              return const Center(
+                                  child: Text('Nenhum favorito encontrado.'));
                             }
 
                             final establishments = snapshot.data!;
-                            final favorites = establishments.where((temple) => temple.isFavorite).toList();
+                            final favorites = establishments
+                                .where((temple) => temple.isFavorite)
+                                .toList();
+
+                            if (favorites.isEmpty) {
+                              return const Center(
+                                  child: Text('Nenhum favorito encontrado.'));
+                            }
 
                             return ListView.builder(
                               shrinkWrap: true,
@@ -614,7 +644,8 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                               itemBuilder: (context, index) {
                                 final temple = favorites[index];
                                 return Card(
-                                  margin: const EdgeInsets.symmetric(vertical: 8.0),
+                                  margin:
+                                      const EdgeInsets.symmetric(vertical: 8.0),
                                   child: ListTile(
                                     contentPadding: const EdgeInsets.all(8.0),
                                     title: Row(
@@ -622,8 +653,10 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                                         Container(
                                           padding: const EdgeInsets.all(4.0),
                                           decoration: BoxDecoration(
-                                            border: Border.all(color: Colors.grey, width: 1),
-                                            borderRadius: BorderRadius.circular(20.0),
+                                            border: Border.all(
+                                                color: Colors.grey, width: 1),
+                                            borderRadius:
+                                                BorderRadius.circular(20.0),
                                           ),
                                           child: ClipOval(
                                             child: Image.network(
@@ -637,11 +670,14 @@ class LocationMapState extends State<LocationMap> with TickerProviderStateMixin 
                                         const SizedBox(width: 8.0),
                                         Expanded(
                                           child: Column(
-                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
                                             children: [
                                               Text(
                                                 temple.name,
-                                                style: const TextStyle(fontWeight: FontWeight.bold),
+                                                style: const TextStyle(
+                                                    fontWeight:
+                                                        FontWeight.bold),
                                               ),
                                               Text(temple.address),
                                             ],
