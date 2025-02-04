@@ -5,8 +5,13 @@
 - [Projeto e prototipação](https://drive.google.com/file/d/1qdY1r7EQcEticXKyLCX5s0UFLGDmw3_y/view?usp=sharing)
 - [Sprint 1](https://drive.google.com/file/d/1bANzWy_UupawMiKnVa-uLVII5wc46ZgJ/view?usp=sharing)
 - [Sprint 2](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing)
+- [Sprint 3](https://drive.google.com/file/d/1UJ1QEG3DfBgj3KlKoZQVACBa0vKMHkCV/view?usp=sharing)
 
 [Link para o projeto em produção](https://github.com/daniellucadss/ifpi-ads-esw-3/tree/main/LISA_v2)
+
+## 📂 Sprint 3
+### Vídeo de apresentação da Sprint 3
+- O vídeo de apresentação da Sprint 3 está disponível [aqui](https://drive.google.com/file/d/1UJ1QEG3DfBgj3KlKoZQVACBa0vKMHkCV/view?usp=sharing).
 
 ---
 
