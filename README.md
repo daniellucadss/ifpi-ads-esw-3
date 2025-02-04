@@ -34,7 +34,7 @@
 O vídeo de apresentação do projeto e prototipação está disponível [aqui](https://drive.google.com/file/d/1qdY1r7EQcEticXKyLCX5s0UFLGDmw3_y/view?usp=sharing).
 
 1. Sprint Backlog
-![Wireframes](https://i.imgur.com/zghPhag.png)
+![Wireframes](https://i.imgur.com/jdLbNMM.png)
 
 2. Wireframes
 ![Wireframes](https://i.imgur.com/k6eNnoI.png)

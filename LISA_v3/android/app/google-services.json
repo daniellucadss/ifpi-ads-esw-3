@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "154870925999",
+    "firebase_url": "https://api-teste-fa910-default-rtdb.firebaseio.com",
+    "project_id": "api-teste-fa910",
+    "storage_bucket": "api-teste-fa910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154870925999:android:5e156faea9d5ae2076e25a",
+        "android_client_info": {
+          "package_name": "com.br.LocalizaAAIII.trabalho_loc_ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByr4fdMuYONZmM0Y3bSzLeEFx9WzIBn9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154870925999:android:82081db24cbf32a276e25a",
+        "android_client_info": {
+          "package_name": "com.example.firebase_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByr4fdMuYONZmM0Y3bSzLeEFx9WzIBn9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
