@@ -76,8 +76,7 @@ O vídeo de apresentação dos artefatos finais está disponível [aqui](https:/
       | 8   | Favoritos                  | CRUD                    |
       | 9   | Traçar Rota                | Funcionalidade Principal|
       | 10  | Botão "Localizar Próximo"  | Funcionalidade Principal|
-      | 12  | Notificações de Novos Locais| Funcionalidade Secundária|
-      | 13  | Integração com Google Maps | Integração Externa      |
+      | 11  | Integração com Google Maps | Integração Externa      |
     
 ### Avaliação de equipe para equipe (Feedback para o projeto Synapse)
 ---
