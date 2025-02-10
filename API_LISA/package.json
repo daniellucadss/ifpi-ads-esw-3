@@ -4,8 +4,8 @@
   "description": "API para o aplicativo LISA (Localização e Informação de Saúde Atualizada)",
   "main": "src/server.ts",
   "scripts": {
-    "dev": "ts-node src/server.ts", 
-    "build": "tsc", 
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
     "start": "node dist/server.js"
   },
   "dependencies": {
@@ -15,10 +15,11 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "typescript": "^4.5.5",
-    "ts-node": "^10.9.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.13",
     "@types/node": "^16.0.0",
-    "@types/express": "^4.17.13"
+    "ts-node": "^10.9.1",
+    "typescript": "^4.5.5"
   },
   "author": "Daniel Luca",
   "license": "MIT"
