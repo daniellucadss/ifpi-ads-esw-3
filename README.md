@@ -14,12 +14,12 @@
 
 Confira a apresentação detalhada do projeto **L.I.S.A.** clicando no link abaixo:
 
-[**Baixar a apresentação em PDF**](https://drive.google.com/file/d/1T8yx6fA9uEnWjcLHRTP6AHqXSsQ6E-6u/view?usp=sharing).
+[**Apresentação em PDF**](https://drive.google.com/file/d/1T8yx6fA9uEnWjcLHRTP6AHqXSsQ6E-6u/view?usp=sharing).
 
 
 ## 📂 Questionário sobre o Projeto
 Para entender melhor a experiência e as necessidades dos usuários, criamos um questionário sobre o **L.I.S.A.**. Sua participação será muito importante para a melhoria contínua do projeto.
-[**Clique aqui para acessar o questionário**](https://docs.google.com/forms/d/e/1FAIpQLSeEBHJCECg7MAjk9_ICxgATqDdG9_S2PIrYcjqFDmaeYJlZsg/viewform?usp=sharing).
+[**Acessar o questionário**](https://docs.google.com/forms/d/e/1FAIpQLSeEBHJCECg7MAjk9_ICxgATqDdG9_S2PIrYcjqFDmaeYJlZsg/viewform?usp=sharing).
 
 
 ## 📂 Sprint 3
