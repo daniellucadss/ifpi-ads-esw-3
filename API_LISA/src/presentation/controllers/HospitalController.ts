@@ -1,13 +1,9 @@
 import { Request, Response } from 'express';
-import { GooglePlacesService } from '../../domain/services/GooglePlacesService';
-import { Hospital } from '../../domain/entities/Hospital';
+import { HospitalService } from '../../domain/services/HospitalService';
+import { Location } from '../../domain/entities/Hospital';
 
 export class HospitalController {
-  private googlePlacesService: GooglePlacesService;
-
-  constructor(apiKey: string) {
-    this.googlePlacesService = new GooglePlacesService(apiKey);
-  }
+  constructor(private hospitalService: HospitalService) {}
 
   async getNearby(req: Request, res: Response): Promise<void> {
     const { lat, lng, radius } = req.query;
@@ -18,9 +14,13 @@ export class HospitalController {
         return;
       }
 
-      const hospitals = await this.googlePlacesService.getNearbyHospitals(
-        parseFloat(lat as string),
-        parseFloat(lng as string),
+      const location: Location = {
+        lat: parseFloat(lat as string),
+        lng: parseFloat(lng as string)
+      };
+
+      const hospitals = await this.hospitalService.getNearbyHospitals(
+        location,
         parseInt(radius as string) || 5000
       );
 
@@ -40,17 +40,19 @@ export class HospitalController {
         return;
       }
 
-      const closestHospital = await this.googlePlacesService.getClosestHospital(
-        parseFloat(lat as string),
-        parseFloat(lng as string)
-      );
+      const location: Location = {
+        lat: parseFloat(lat as string),
+        lng: parseFloat(lng as string)
+      };
 
-      if (!closestHospital) {
+      const hospital = await this.hospitalService.getClosestHospital(location);
+
+      if (!hospital) {
         res.status(404).json({ error: 'No hospital found nearby' });
         return;
       }
 
-      res.json(closestHospital);
+      res.json(hospital);
     } catch (error: any) {
       res.status(500).json({ error: error.message });
     }
