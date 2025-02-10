@@ -9,6 +9,12 @@
 
 [Link para o projeto em produção](https://github.com/daniellucadss/ifpi-ads-esw-3/tree/main/LISA)
 
+
+## 📂 Questionário sobre o Projeto
+Para entender melhor a experiência e as necessidades dos usuários, criamos um questionário sobre o **L.I.S.A.**. Sua participação será muito importante para a melhoria contínua do projeto.
+[**Clique aqui para acessar o questionário**](https://docs.google.com/forms/d/e/1FAIpQLSeEBHJCECg7MAjk9_ICxgATqDdG9_S2PIrYcjqFDmaeYJlZsg/viewform?usp=sharing).
+
+
 ## 📂 Sprint 3
 ### Vídeo de apresentação da Sprint 3
 - O vídeo de apresentação da Sprint 3 está disponível [aqui](https://drive.google.com/file/d/1UJ1QEG3DfBgj3KlKoZQVACBa0vKMHkCV/view?usp=sharing).
