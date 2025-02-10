@@ -7,7 +7,7 @@
 - [Sprint 2](https://drive.google.com/file/d/1CpyWIJBrzqW4nQIMu7yIhYkjuQ-v9q_C/view?usp=sharing)
 - [Sprint 3](https://drive.google.com/file/d/1UJ1QEG3DfBgj3KlKoZQVACBa0vKMHkCV/view?usp=sharing)
 
-[Link para o projeto em produção](https://github.com/daniellucadss/ifpi-ads-esw-3/tree/main/LISA_v3)
+[Link para o projeto em produção](https://github.com/daniellucadss/ifpi-ads-esw-3/tree/main/LISA)
 
 ## 📂 Sprint 3
 ### Vídeo de apresentação da Sprint 3
