@@ -1,5 +1,5 @@
 ## 📂 Relatório final (ES III,  PDM e PI II)
-[Relatório final](https://docs.google.com/document/d/1VltXDPGKq_azhCtDDLr6eDp1VJdRULKOj2Da938zRrk/edit?usp=drive_link)
+[Relatório final](https://docs.google.com/document/d/1VltXDPGKq_azhCtDDLr6eDp1VJdRULKOj2Da938zRrk/edit?usp=sharing)
 
 ## 📂 Link para todos os vídeos de apresentação
 - [Definições iniciais](https://drive.google.com/file/d/1t7oc6_EqhTgMlyPU--Wz3Ruvb0F2D5qU/view?hl=pt-BR)
