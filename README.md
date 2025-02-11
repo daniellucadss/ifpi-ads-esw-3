@@ -57,7 +57,7 @@ O vídeo de apresentação do projeto e prototipação está disponível [aqui](
 1. Sprint Backlog
 ![Wireframes](https://i.imgur.com/jdLbNMM.png)
 
-2. Wireframes
+2. [Wireframes (Figma)](https://www.figma.com/design/hAKJvZmtI0CPp4geQE6lRK/LISA?node-id=0-1&p=f)
 ![Wireframes](https://i.imgur.com/k6eNnoI.png)
 
 3. Modelo entidade-relacionamento preliminar
