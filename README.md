@@ -76,7 +76,7 @@ O vídeo de apresentação dos artefatos finais está disponível [aqui](https:/
 9. [Rabiscoframe](https://drive.google.com/drive/folders/1iVk1GM58hsw8LjbmL5ncWgVvy1T-NGCk)
 
 ![Rabiscoframe](https://i.imgur.com/PznkyaJ.jpeg)
-![Rabiscoframe](https://i.imgur.com/gDOOBuL.jpeg)
+## ![Rabiscoframe](https://i.imgur.com/gDOOBuL.jpeg)
 
 10. [Flat Backlog](https://docs.google.com/spreadsheets/d/1s_MSr0p3xCHqZr8RNezveVGHjVR181oiZAOo-A6a7Mg/edit?gid=0#gid=0)
 
@@ -114,7 +114,7 @@ O vídeo de apresentação dos artefatos está disponível [aqui](https://drive.
 5. [Caixa do Produto](https://docs.google.com/document/d/1RWUOzggHN5BFnttJDKBXNiXK-Igq_CqT/edit#heading=h.gjdgxs)
 6. [Personas](https://drive.google.com/file/d/1UH45OCdFchlXyc6jbVe6pokRmvupjOS2/view?usp=drive_link)
 
-![Personas](https://i.imgur.com/LtDa3QK.jpeg)
+## ![Personas](https://i.imgur.com/LtDa3QK.jpeg)
 
 7. [Mapas de Empatia](https://drive.google.com/file/d/1VPt7GgsbUjetL5nDauKHdyoISckUJ9a_/view?usp=drive_link)
 
