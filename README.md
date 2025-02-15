@@ -1,8 +1,8 @@
 ## 📂 Integrantes:
-Daniel Luca dos Santos Silva
-Francisco Igor Gonçalves Mourão
-Israel Benvindo Pereira
-Rafael Lima Martins
+- Daniel Luca dos Santos Silva
+- Francisco Igor Gonçalves Mourão
+- Israel Benvindo Pereira
+- Rafael Lima Martins
 
 ## 📂 Relatório final (ES III,  PDM e PI II)
 [Relatório final](https://docs.google.com/document/d/1VltXDPGKq_azhCtDDLr6eDp1VJdRULKOj2Da938zRrk/edit?usp=sharing)
